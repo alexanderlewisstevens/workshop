@@ -1,0 +1,70 @@
+{
+  "title": "All Types Bank",
+  "description": "A question bank with one of every Canvas question type, each with feedback.",
+  "questions": [
+    {
+      "question_name": "MCQ Example",
+      "question_text": "What is the capital of Italy?",
+      "question_type": "multiple_choice_question",
+      "answers": [
+        {"text": "Rome", "weight": 100, "feedback": "Correct! Rome is the capital of Italy."},
+        {"text": "Milan", "weight": 0, "feedback": "Incorrect. Milan is not the capital."},
+        {"text": "Venice", "weight": 0, "feedback": "Incorrect. Venice is not the capital."}
+      ],
+      "general_feedback": "The capital of Italy is Rome."
+    },
+    {
+      "question_name": "Essay Example",
+      "question_text": "Explain the process of photosynthesis.",
+      "question_type": "essay_question",
+      "general_feedback": "Photosynthesis is the process by which green plants convert sunlight into energy."
+    },
+    {
+      "question_name": "Short Answer Example",
+      "question_text": "What is the chemical symbol for water?",
+      "question_type": "short_answer_question",
+      "answers": [
+        {"text": "H2O", "weight": 100, "feedback": "Correct! H2O is the chemical symbol for water."}
+      ],
+      "general_feedback": "The correct answer is H2O."
+    },
+    {
+      "question_name": "True/False Example",
+      "question_text": "The Earth is flat.",
+      "question_type": "true_false_question",
+      "answers": [
+        {"text": "false", "weight": 100, "feedback": "Correct! The Earth is not flat."},
+        {"text": "true", "weight": 0, "feedback": "Incorrect. The Earth is round."}
+      ],
+      "general_feedback": "The Earth is round, not flat."
+    },
+    {
+      "question_name": "Fill in the Blank Example",
+      "question_text": "The largest planet in our solar system is [____].",
+      "question_type": "fill_in_multiple_blanks_question",
+      "answers": [
+        {"text": "Jupiter", "weight": 100, "feedback": "Correct! Jupiter is the largest planet."}
+      ],
+      "general_feedback": "Jupiter is the largest planet in our solar system."
+    },
+    {
+      "question_name": "Matching Example",
+      "question_text": "Match the country to its capital.",
+      "question_type": "matching_question",
+      "answers": [
+        {"text": "France", "match": "Paris", "feedback": "Correct! Paris is the capital of France."},
+        {"text": "Germany", "match": "Berlin", "feedback": "Correct! Berlin is the capital of Germany."}
+      ],
+      "general_feedback": "Review the capitals of major countries."
+    },
+    {
+      "question_name": "Numerical Example",
+      "question_text": "What is the value of Pi (to 2 decimal places)?",
+      "question_type": "numerical_question",
+      "answers": [
+        {"text": "3.14", "weight": 100, "feedback": "Correct! Pi is approximately 3.14."}
+      ],
+      "general_feedback": "Pi is approximately 3.14."
+    }
+  ]
+}
