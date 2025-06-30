@@ -9,19 +9,25 @@ This project demonstrates how to use the OpenAI API in Python with environment v
    cp .env.example .env
    # Then edit .env to add your key
    ```
-2. Install dependencies:
+2. (Recommended) Create and activate a virtual environment:
+   ```sh
+   python3 -m venv env
+   source env/bin/activate
+   ```
+3. Install dependencies:
    ```sh
    pip install -r requirements.txt
    ```
-3. Run the example:
+4. Run the example:
    ```sh
-   python main.py
+   python example.py
    ```
 
 ## Files
-- `main.py`: Example script using OpenAI API
+- `example.py`: Example script using OpenAI API
 - `.env.example`: Template for environment variables
 - `requirements.txt`: Python dependencies
+- `.gitignore`: Standard Python and environment ignores
 
 ## Requirements
 - Python 3.8+
