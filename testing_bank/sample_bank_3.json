@@ -1,0 +1,26 @@
+{
+  "title": "Sample Bank 3",
+  "description": "A third sample question bank for testing.",
+  "questions": [
+    {
+      "question_name": "What is the boiling point of water?",
+      "question_text": "At what temperature does water boil at sea level?",
+      "question_type": "multiple_choice_question",
+      "answers": [
+        {"text": "100°C", "weight": 100},
+        {"text": "0°C", "weight": 0},
+        {"text": "50°C", "weight": 0}
+      ]
+    },
+    {
+      "question_name": "What planet is known as the Red Planet?",
+      "question_text": "Select the planet known as the Red Planet.",
+      "question_type": "multiple_choice_question",
+      "answers": [
+        {"text": "Mars", "weight": 100},
+        {"text": "Venus", "weight": 0},
+        {"text": "Jupiter", "weight": 0}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Sample Bank 1",
+  "description": "A sample question bank for testing.",
+  "questions": [
+    {
+      "question_name": "What is 2 + 2?",
+      "question_text": "Calculate 2 + 2.",
+      "question_type": "multiple_choice_question",
+      "answers": [
+        {"text": "3", "weight": 0},
+        {"text": "4", "weight": 100},
+        {"text": "5", "weight": 0}
+      ]
+    },
+    {
+      "question_name": "What is the capital of France?",
+      "question_text": "Select the capital of France.",
+      "question_type": "multiple_choice_question",
+      "answers": [
+        {"text": "Berlin", "weight": 0},
+        {"text": "Paris", "weight": 100},
+        {"text": "Rome", "weight": 0}
+      ]
+    }
+  ]
+}

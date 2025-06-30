@@ -1,0 +1,26 @@
+{
+  "title": "Sample Bank 2",
+  "description": "Another sample question bank for testing.",
+  "questions": [
+    {
+      "question_name": "What is the color of the sky?",
+      "question_text": "Choose the typical color of a clear daytime sky.",
+      "question_type": "multiple_choice_question",
+      "answers": [
+        {"text": "Blue", "weight": 100},
+        {"text": "Green", "weight": 0},
+        {"text": "Red", "weight": 0}
+      ]
+    },
+    {
+      "question_name": "What is H2O?",
+      "question_text": "What does H2O stand for?",
+      "question_type": "multiple_choice_question",
+      "answers": [
+        {"text": "Water", "weight": 100},
+        {"text": "Oxygen", "weight": 0},
+        {"text": "Hydrogen", "weight": 0}
+      ]
+    }
+  ]
+}
